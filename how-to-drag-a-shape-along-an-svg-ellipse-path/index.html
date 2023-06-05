@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tutorial</title>
+    <style>
+        html, body{
+            padding: 0;
+            background: #121212;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+        }
+
+        svg {
+            border: 1px solid #333;
+        }
+    </style>
+</head>
+
+<body>
+    <svg id="svg" xmlns="http://www.w3.org/2000/svg" width="500" height="300">
+        <ellipse
+                cx="250"
+                cy="150"
+                rx="220"
+                ry="120"
+                fill="none"
+                stroke="#3d8ea7"
+                stroke-width="10"></ellipse>
+
+        <circle
+                id="pointer"
+                cx="470"
+                cy="150"
+                r="30"
+                cursor="pointer"
+                fill="#efefef"></circle>
+
+    </svg>
+
+   <script src="index.js"></script>
+</body>
+</html>
